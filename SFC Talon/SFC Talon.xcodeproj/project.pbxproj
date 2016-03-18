@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4707CAB21C9ADDBD001A670C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4707CAB11C9ADDBD001A670C /* main.m */; };
+		4707CABB1C9ADDBD001A670C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4707CAB91C9ADDBD001A670C /* Main.storyboard */; };
+		4707CAC01C9ADDBE001A670C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4707CABF1C9ADDBE001A670C /* Assets.xcassets */; };
+		4707CAC31C9ADDBE001A670C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4707CAC11C9ADDBE001A670C /* LaunchScreen.storyboard */; };
+		4707CACE1C9ADDBE001A670C /* SFC_TalonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4707CACD1C9ADDBE001A670C /* SFC_TalonTests.m */; };
+		4707CAD91C9ADDBE001A670C /* SFC_TalonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4707CAD81C9ADDBE001A670C /* SFC_TalonUITests.m */; };
+		4707CAF21C9AE132001A670C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4707CAE81C9AE132001A670C /* AppDelegate.m */; };
+		4707CAF31C9AE132001A670C /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 4707CAED1C9AE132001A670C /* splash.png */; };
+		4707CAF41C9AE132001A670C /* SFC_Talon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4707CAEF1C9AE132001A670C /* SFC_Talon.xcdatamodeld */; };
+		4707CAFF1C9AE4C0001A670C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4707CAFE1C9AE4C0001A670C /* HomeViewController.m */; };
+		4707CB061C9AE89D001A670C /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4707CB051C9AE89D001A670C /* AboutViewController.m */; };
+		4707CB091C9AED30001A670C /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4707CB081C9AED30001A670C /* background.jpg */; };
+		4707CB0B1C9AEE8E001A670C /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4707CB0A1C9AEE8E001A670C /* back.png */; };
+		4707CB101C9AF681001A670C /* AboutMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4707CB0F1C9AF681001A670C /* AboutMenuCell.m */; };
+		47B7D1F81C9BDA0C00487E39 /* home.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 47B7D1F71C9BDA0C00487E39 /* home.PNG */; };
+		47B7D1FB1C9BE6C500487E39 /* champion.png in Resources */ = {isa = PBXBuildFile; fileRef = 47B7D1FA1C9BE6C500487E39 /* champion.png */; };
+		47B7D1FD1C9BE83200487E39 /* IMG_4349.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 47B7D1FC1C9BE83200487E39 /* IMG_4349.PNG */; };
+		47B7D2051C9BEB3400487E39 /* PhilosophyOfSFCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B7D2041C9BEB3400487E39 /* PhilosophyOfSFCViewController.m */; };
+		47B7D2071C9C292400487E39 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 47B7D2061C9C292400487E39 /* logo.png */; };
+		47B7D20B1C9C318F00487E39 /* ImagePreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B7D20A1C9C318F00487E39 /* ImagePreviewViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4707CACA1C9ADDBE001A670C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4707CAA51C9ADDBD001A670C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4707CAAC1C9ADDBD001A670C;
+			remoteInfo = "SFC Talon";
+		};
+		4707CAD51C9ADDBE001A670C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4707CAA51C9ADDBD001A670C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4707CAAC1C9ADDBD001A670C;
+			remoteInfo = "SFC Talon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4707CAAD1C9ADDBD001A670C /* SFC Talon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SFC Talon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4707CAB11C9ADDBD001A670C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4707CABA1C9ADDBD001A670C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4707CABF1C9ADDBE001A670C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "SFC Talon/Assets.xcassets"; sourceTree = "<group>"; };
+		4707CAC21C9ADDBE001A670C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4707CAC41C9ADDBE001A670C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4707CAC91C9ADDBE001A670C /* SFC TalonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SFC TalonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4707CACD1C9ADDBE001A670C /* SFC_TalonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFC_TalonTests.m; sourceTree = "<group>"; };
+		4707CACF1C9ADDBE001A670C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4707CAD41C9ADDBE001A670C /* SFC TalonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SFC TalonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4707CAD81C9ADDBE001A670C /* SFC_TalonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFC_TalonUITests.m; sourceTree = "<group>"; };
+		4707CADA1C9ADDBE001A670C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4707CAE71C9AE132001A670C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4707CAE81C9AE132001A670C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4707CAED1C9AE132001A670C /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		4707CAF01C9AE132001A670C /* SFC_Talon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SFC_Talon.xcdatamodel; sourceTree = "<group>"; };
+		4707CAFD1C9AE4C0001A670C /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4707CAFE1C9AE4C0001A670C /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		4707CB041C9AE89D001A670C /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		4707CB051C9AE89D001A670C /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		4707CB081C9AED30001A670C /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		4707CB0A1C9AEE8E001A670C /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		4707CB0E1C9AF681001A670C /* AboutMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutMenuCell.h; sourceTree = "<group>"; };
+		4707CB0F1C9AF681001A670C /* AboutMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutMenuCell.m; sourceTree = "<group>"; };
+		47B7D1F71C9BDA0C00487E39 /* home.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.PNG; sourceTree = "<group>"; };
+		47B7D1FA1C9BE6C500487E39 /* champion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = champion.png; sourceTree = "<group>"; };
+		47B7D1FC1C9BE83200487E39 /* IMG_4349.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_4349.PNG; sourceTree = "<group>"; };
+		47B7D2031C9BEB3400487E39 /* PhilosophyOfSFCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhilosophyOfSFCViewController.h; sourceTree = "<group>"; };
+		47B7D2041C9BEB3400487E39 /* PhilosophyOfSFCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhilosophyOfSFCViewController.m; sourceTree = "<group>"; };
+		47B7D2061C9C292400487E39 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		47B7D2091C9C318F00487E39 /* ImagePreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePreviewViewController.h; sourceTree = "<group>"; };
+		47B7D20A1C9C318F00487E39 /* ImagePreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePreviewViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4707CAAA1C9ADDBD001A670C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4707CAC61C9ADDBE001A670C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4707CAD11C9ADDBE001A670C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4707CAA41C9ADDBD001A670C = {
+			isa = PBXGroup;
+			children = (
+				4707CAAF1C9ADDBD001A670C /* SFC Talon */,
+				4707CABF1C9ADDBE001A670C /* Assets.xcassets */,
+				4707CACC1C9ADDBE001A670C /* SFC TalonTests */,
+				4707CAD71C9ADDBE001A670C /* SFC TalonUITests */,
+				4707CAAE1C9ADDBD001A670C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4707CAAE1C9ADDBD001A670C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4707CAAD1C9ADDBD001A670C /* SFC Talon.app */,
+				4707CAC91C9ADDBE001A670C /* SFC TalonTests.xctest */,
+				4707CAD41C9ADDBE001A670C /* SFC TalonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4707CAAF1C9ADDBD001A670C /* SFC Talon */ = {
+			isa = PBXGroup;
+			children = (
+				4707CAE61C9AE132001A670C /* AppDelegate */,
+				4707CAF51C9AE17D001A670C /* Views */,
+				4707CAF11C9AE132001A670C /* ViewControllers */,
+				4707CB0C1C9AF659001A670C /* CustomCells */,
+				4707CAE91C9AE132001A670C /* Assets */,
+				4707CAEE1C9AE132001A670C /* CoreData */,
+				4707CAB01C9ADDBD001A670C /* Supporting Files */,
+			);
+			path = "SFC Talon";
+			sourceTree = "<group>";
+		};
+		4707CAB01C9ADDBD001A670C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4707CAC41C9ADDBE001A670C /* Info.plist */,
+				4707CAB11C9ADDBD001A670C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4707CACC1C9ADDBE001A670C /* SFC TalonTests */ = {
+			isa = PBXGroup;
+			children = (
+				4707CACD1C9ADDBE001A670C /* SFC_TalonTests.m */,
+				4707CACF1C9ADDBE001A670C /* Info.plist */,
+			);
+			path = "SFC TalonTests";
+			sourceTree = "<group>";
+		};
+		4707CAD71C9ADDBE001A670C /* SFC TalonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4707CAD81C9ADDBE001A670C /* SFC_TalonUITests.m */,
+				4707CADA1C9ADDBE001A670C /* Info.plist */,
+			);
+			path = "SFC TalonUITests";
+			sourceTree = "<group>";
+		};
+		4707CAE61C9AE132001A670C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4707CAE71C9AE132001A670C /* AppDelegate.h */,
+				4707CAE81C9AE132001A670C /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		4707CAE91C9AE132001A670C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				47B7D1FC1C9BE83200487E39 /* IMG_4349.PNG */,
+				4707CAEA1C9AE132001A670C /* Images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		4707CAEA1C9AE132001A670C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4707CB071C9AED1F001A670C /* General */,
+				4707CAF91C9AE38E001A670C /* Home */,
+				4707CAEB1C9AE132001A670C /* Splash */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		4707CAEB1C9AE132001A670C /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				4707CAEC1C9AE132001A670C /* iPhone */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		4707CAEC1C9AE132001A670C /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				4707CAED1C9AE132001A670C /* splash.png */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		4707CAEE1C9AE132001A670C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4707CAEF1C9AE132001A670C /* SFC_Talon.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		4707CAF11C9AE132001A670C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4707CAFC1C9AE486001A670C /* HomeViewController */,
+				4707CB031C9AE89D001A670C /* AboutViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4707CAF51C9AE17D001A670C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4707CAB91C9ADDBD001A670C /* Main.storyboard */,
+				4707CAC11C9ADDBE001A670C /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4707CAF91C9AE38E001A670C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				47B7D1F71C9BDA0C00487E39 /* home.PNG */,
+				47B7D1F91C9BE69000487E39 /* Menu1 */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4707CAFC1C9AE486001A670C /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4707CAFD1C9AE4C0001A670C /* HomeViewController.h */,
+				4707CAFE1C9AE4C0001A670C /* HomeViewController.m */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		4707CB031C9AE89D001A670C /* AboutViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4707CB041C9AE89D001A670C /* AboutViewController.h */,
+				4707CB051C9AE89D001A670C /* AboutViewController.m */,
+				47B7D2021C9BEB1400487E39 /* PhilosophyOfSFCViewController */,
+			);
+			path = AboutViewController;
+			sourceTree = "<group>";
+		};
+		4707CB071C9AED1F001A670C /* General */ = {
+			isa = PBXGroup;
+			children = (
+				4707CB0A1C9AEE8E001A670C /* back.png */,
+				4707CB081C9AED30001A670C /* background.jpg */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		4707CB0C1C9AF659001A670C /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				4707CB0D1C9AF659001A670C /* AboutMenuCell */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		4707CB0D1C9AF659001A670C /* AboutMenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				4707CB0E1C9AF681001A670C /* AboutMenuCell.h */,
+				4707CB0F1C9AF681001A670C /* AboutMenuCell.m */,
+			);
+			path = AboutMenuCell;
+			sourceTree = "<group>";
+		};
+		47B7D1F91C9BE69000487E39 /* Menu1 */ = {
+			isa = PBXGroup;
+			children = (
+				47B7D2061C9C292400487E39 /* logo.png */,
+				47B7D1FA1C9BE6C500487E39 /* champion.png */,
+			);
+			path = Menu1;
+			sourceTree = "<group>";
+		};
+		47B7D2021C9BEB1400487E39 /* PhilosophyOfSFCViewController */ = {
+			isa = PBXGroup;
+			children = (
+				47B7D2031C9BEB3400487E39 /* PhilosophyOfSFCViewController.h */,
+				47B7D2041C9BEB3400487E39 /* PhilosophyOfSFCViewController.m */,
+				47B7D2081C9C317200487E39 /* ImagePreviewViewController */,
+			);
+			path = PhilosophyOfSFCViewController;
+			sourceTree = "<group>";
+		};
+		47B7D2081C9C317200487E39 /* ImagePreviewViewController */ = {
+			isa = PBXGroup;
+			children = (
+				47B7D2091C9C318F00487E39 /* ImagePreviewViewController.h */,
+				47B7D20A1C9C318F00487E39 /* ImagePreviewViewController.m */,
+			);
+			path = ImagePreviewViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4707CAAC1C9ADDBD001A670C /* SFC Talon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4707CADD1C9ADDBE001A670C /* Build configuration list for PBXNativeTarget "SFC Talon" */;
+			buildPhases = (
+				4707CAA91C9ADDBD001A670C /* Sources */,
+				4707CAAA1C9ADDBD001A670C /* Frameworks */,
+				4707CAAB1C9ADDBD001A670C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SFC Talon";
+			productName = "SFC Talon";
+			productReference = 4707CAAD1C9ADDBD001A670C /* SFC Talon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4707CAC81C9ADDBE001A670C /* SFC TalonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4707CAE01C9ADDBE001A670C /* Build configuration list for PBXNativeTarget "SFC TalonTests" */;
+			buildPhases = (
+				4707CAC51C9ADDBE001A670C /* Sources */,
+				4707CAC61C9ADDBE001A670C /* Frameworks */,
+				4707CAC71C9ADDBE001A670C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4707CACB1C9ADDBE001A670C /* PBXTargetDependency */,
+			);
+			name = "SFC TalonTests";
+			productName = "SFC TalonTests";
+			productReference = 4707CAC91C9ADDBE001A670C /* SFC TalonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4707CAD31C9ADDBE001A670C /* SFC TalonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4707CAE31C9ADDBE001A670C /* Build configuration list for PBXNativeTarget "SFC TalonUITests" */;
+			buildPhases = (
+				4707CAD01C9ADDBE001A670C /* Sources */,
+				4707CAD11C9ADDBE001A670C /* Frameworks */,
+				4707CAD21C9ADDBE001A670C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4707CAD61C9ADDBE001A670C /* PBXTargetDependency */,
+			);
+			name = "SFC TalonUITests";
+			productName = "SFC TalonUITests";
+			productReference = 4707CAD41C9ADDBE001A670C /* SFC TalonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4707CAA51C9ADDBD001A670C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Intagleo Systems";
+				TargetAttributes = {
+					4707CAAC1C9ADDBD001A670C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4707CAC81C9ADDBE001A670C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4707CAAC1C9ADDBD001A670C;
+					};
+					4707CAD31C9ADDBE001A670C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4707CAAC1C9ADDBD001A670C;
+					};
+				};
+			};
+			buildConfigurationList = 4707CAA81C9ADDBD001A670C /* Build configuration list for PBXProject "SFC Talon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4707CAA41C9ADDBD001A670C;
+			productRefGroup = 4707CAAE1C9ADDBD001A670C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4707CAAC1C9ADDBD001A670C /* SFC Talon */,
+				4707CAC81C9ADDBE001A670C /* SFC TalonTests */,
+				4707CAD31C9ADDBE001A670C /* SFC TalonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4707CAAB1C9ADDBD001A670C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4707CAF31C9AE132001A670C /* splash.png in Resources */,
+				4707CAC31C9ADDBE001A670C /* LaunchScreen.storyboard in Resources */,
+				4707CAC01C9ADDBE001A670C /* Assets.xcassets in Resources */,
+				47B7D1FD1C9BE83200487E39 /* IMG_4349.PNG in Resources */,
+				4707CB091C9AED30001A670C /* background.jpg in Resources */,
+				4707CB0B1C9AEE8E001A670C /* back.png in Resources */,
+				47B7D2071C9C292400487E39 /* logo.png in Resources */,
+				47B7D1F81C9BDA0C00487E39 /* home.PNG in Resources */,
+				47B7D1FB1C9BE6C500487E39 /* champion.png in Resources */,
+				4707CABB1C9ADDBD001A670C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4707CAC71C9ADDBE001A670C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4707CAD21C9ADDBE001A670C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4707CAA91C9ADDBD001A670C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4707CB101C9AF681001A670C /* AboutMenuCell.m in Sources */,
+				4707CAF21C9AE132001A670C /* AppDelegate.m in Sources */,
+				4707CB061C9AE89D001A670C /* AboutViewController.m in Sources */,
+				47B7D20B1C9C318F00487E39 /* ImagePreviewViewController.m in Sources */,
+				4707CAF41C9AE132001A670C /* SFC_Talon.xcdatamodeld in Sources */,
+				47B7D2051C9BEB3400487E39 /* PhilosophyOfSFCViewController.m in Sources */,
+				4707CAB21C9ADDBD001A670C /* main.m in Sources */,
+				4707CAFF1C9AE4C0001A670C /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4707CAC51C9ADDBE001A670C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4707CACE1C9ADDBE001A670C /* SFC_TalonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4707CAD01C9ADDBE001A670C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4707CAD91C9ADDBE001A670C /* SFC_TalonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4707CACB1C9ADDBE001A670C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4707CAAC1C9ADDBD001A670C /* SFC Talon */;
+			targetProxy = 4707CACA1C9ADDBE001A670C /* PBXContainerItemProxy */;
+		};
+		4707CAD61C9ADDBE001A670C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4707CAAC1C9ADDBD001A670C /* SFC Talon */;
+			targetProxy = 4707CAD51C9ADDBE001A670C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4707CAB91C9ADDBD001A670C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4707CABA1C9ADDBD001A670C /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4707CAC11C9ADDBE001A670C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4707CAC21C9ADDBE001A670C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4707CADB1C9ADDBE001A670C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4707CADC1C9ADDBE001A670C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4707CADE1C9ADDBE001A670C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SFC Talon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intagleo.SFC-Talon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4707CADF1C9ADDBE001A670C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SFC Talon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intagleo.SFC-Talon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4707CAE11C9ADDBE001A670C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SFC TalonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intagleo.SFC-TalonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFC Talon.app/SFC Talon";
+			};
+			name = Debug;
+		};
+		4707CAE21C9ADDBE001A670C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SFC TalonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intagleo.SFC-TalonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFC Talon.app/SFC Talon";
+			};
+			name = Release;
+		};
+		4707CAE41C9ADDBE001A670C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SFC TalonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intagleo.SFC-TalonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SFC Talon";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4707CAE51C9ADDBE001A670C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SFC TalonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.intagleo.SFC-TalonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SFC Talon";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4707CAA81C9ADDBD001A670C /* Build configuration list for PBXProject "SFC Talon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4707CADB1C9ADDBE001A670C /* Debug */,
+				4707CADC1C9ADDBE001A670C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4707CADD1C9ADDBE001A670C /* Build configuration list for PBXNativeTarget "SFC Talon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4707CADE1C9ADDBE001A670C /* Debug */,
+				4707CADF1C9ADDBE001A670C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4707CAE01C9ADDBE001A670C /* Build configuration list for PBXNativeTarget "SFC TalonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4707CAE11C9ADDBE001A670C /* Debug */,
+				4707CAE21C9ADDBE001A670C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4707CAE31C9ADDBE001A670C /* Build configuration list for PBXNativeTarget "SFC TalonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4707CAE41C9ADDBE001A670C /* Debug */,
+				4707CAE51C9ADDBE001A670C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4707CAEF1C9AE132001A670C /* SFC_Talon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4707CAF01C9AE132001A670C /* SFC_Talon.xcdatamodel */,
+			);
+			currentVersion = 4707CAF01C9AE132001A670C /* SFC_Talon.xcdatamodel */;
+			path = SFC_Talon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4707CAA51C9ADDBD001A670C /* Project object */;
+}
