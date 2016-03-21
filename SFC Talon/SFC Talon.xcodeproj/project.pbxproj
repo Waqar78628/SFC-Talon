@@ -18,12 +18,15 @@
 		4707CAF41C9AE132001A670C /* SFC_Talon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4707CAEF1C9AE132001A670C /* SFC_Talon.xcdatamodeld */; };
 		4707CAFF1C9AE4C0001A670C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4707CAFE1C9AE4C0001A670C /* HomeViewController.m */; };
 		4707CB061C9AE89D001A670C /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4707CB051C9AE89D001A670C /* AboutViewController.m */; };
-		4707CB091C9AED30001A670C /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4707CB081C9AED30001A670C /* background.jpg */; };
 		4707CB0B1C9AEE8E001A670C /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4707CB0A1C9AEE8E001A670C /* back.png */; };
 		4707CB101C9AF681001A670C /* AboutMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4707CB0F1C9AF681001A670C /* AboutMenuCell.m */; };
+		475F26881C9FD6640039F72D /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 475F26871C9FD6640039F72D /* background.jpg */; };
+		475F268C1C9FD9480039F72D /* AthleticStaffCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 475F268B1C9FD9480039F72D /* AthleticStaffCell.m */; };
+		475F26901C9FDA800039F72D /* AthleticStaffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 475F268F1C9FDA800039F72D /* AthleticStaffViewController.m */; };
+		475F270E1C9FE8470039F72D /* Staff+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 475F270B1C9FE8470039F72D /* Staff+CoreDataProperties.m */; };
+		475F270F1C9FE8470039F72D /* Staff.m in Sources */ = {isa = PBXBuildFile; fileRef = 475F270D1C9FE8470039F72D /* Staff.m */; };
 		47B7D1F81C9BDA0C00487E39 /* home.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 47B7D1F71C9BDA0C00487E39 /* home.PNG */; };
 		47B7D1FB1C9BE6C500487E39 /* champion.png in Resources */ = {isa = PBXBuildFile; fileRef = 47B7D1FA1C9BE6C500487E39 /* champion.png */; };
-		47B7D1FD1C9BE83200487E39 /* IMG_4349.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 47B7D1FC1C9BE83200487E39 /* IMG_4349.PNG */; };
 		47B7D2051C9BEB3400487E39 /* PhilosophyOfSFCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B7D2041C9BEB3400487E39 /* PhilosophyOfSFCViewController.m */; };
 		47B7D2071C9C292400487E39 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 47B7D2061C9C292400487E39 /* logo.png */; };
 		47B7D20B1C9C318F00487E39 /* ImagePreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B7D20A1C9C318F00487E39 /* ImagePreviewViewController.m */; };
@@ -67,13 +70,20 @@
 		4707CAFE1C9AE4C0001A670C /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		4707CB041C9AE89D001A670C /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		4707CB051C9AE89D001A670C /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
-		4707CB081C9AED30001A670C /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		4707CB0A1C9AEE8E001A670C /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		4707CB0E1C9AF681001A670C /* AboutMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutMenuCell.h; sourceTree = "<group>"; };
 		4707CB0F1C9AF681001A670C /* AboutMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutMenuCell.m; sourceTree = "<group>"; };
+		475F26871C9FD6640039F72D /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		475F268A1C9FD9480039F72D /* AthleticStaffCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AthleticStaffCell.h; sourceTree = "<group>"; };
+		475F268B1C9FD9480039F72D /* AthleticStaffCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AthleticStaffCell.m; sourceTree = "<group>"; };
+		475F268E1C9FDA7F0039F72D /* AthleticStaffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AthleticStaffViewController.h; sourceTree = "<group>"; };
+		475F268F1C9FDA800039F72D /* AthleticStaffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AthleticStaffViewController.m; sourceTree = "<group>"; };
+		475F270A1C9FE8470039F72D /* Staff+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Staff+CoreDataProperties.h"; sourceTree = "<group>"; };
+		475F270B1C9FE8470039F72D /* Staff+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Staff+CoreDataProperties.m"; sourceTree = "<group>"; };
+		475F270C1C9FE8470039F72D /* Staff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Staff.h; sourceTree = "<group>"; };
+		475F270D1C9FE8470039F72D /* Staff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Staff.m; sourceTree = "<group>"; };
 		47B7D1F71C9BDA0C00487E39 /* home.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.PNG; sourceTree = "<group>"; };
 		47B7D1FA1C9BE6C500487E39 /* champion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = champion.png; sourceTree = "<group>"; };
-		47B7D1FC1C9BE83200487E39 /* IMG_4349.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_4349.PNG; sourceTree = "<group>"; };
 		47B7D2031C9BEB3400487E39 /* PhilosophyOfSFCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhilosophyOfSFCViewController.h; sourceTree = "<group>"; };
 		47B7D2041C9BEB3400487E39 /* PhilosophyOfSFCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhilosophyOfSFCViewController.m; sourceTree = "<group>"; };
 		47B7D2061C9C292400487E39 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
@@ -181,7 +191,6 @@
 		4707CAE91C9AE132001A670C /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				47B7D1FC1C9BE83200487E39 /* IMG_4349.PNG */,
 				4707CAEA1C9AE132001A670C /* Images */,
 			);
 			path = Assets;
@@ -217,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				4707CAEF1C9AE132001A670C /* SFC_Talon.xcdatamodeld */,
+				475F27051C9FE7300039F72D /* NSManagedObject SubClasses */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -263,6 +273,7 @@
 				4707CB041C9AE89D001A670C /* AboutViewController.h */,
 				4707CB051C9AE89D001A670C /* AboutViewController.m */,
 				47B7D2021C9BEB1400487E39 /* PhilosophyOfSFCViewController */,
+				475F268D1C9FDA5C0039F72D /* AthleticStaffViewController */,
 			);
 			path = AboutViewController;
 			sourceTree = "<group>";
@@ -271,7 +282,7 @@
 			isa = PBXGroup;
 			children = (
 				4707CB0A1C9AEE8E001A670C /* back.png */,
-				4707CB081C9AED30001A670C /* background.jpg */,
+				475F26871C9FD6640039F72D /* background.jpg */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -279,6 +290,7 @@
 		4707CB0C1C9AF659001A670C /* CustomCells */ = {
 			isa = PBXGroup;
 			children = (
+				475F26891C9FD92F0039F72D /* AthleticStaffCell */,
 				4707CB0D1C9AF659001A670C /* AboutMenuCell */,
 			);
 			path = CustomCells;
@@ -291,6 +303,43 @@
 				4707CB0F1C9AF681001A670C /* AboutMenuCell.m */,
 			);
 			path = AboutMenuCell;
+			sourceTree = "<group>";
+		};
+		475F26891C9FD92F0039F72D /* AthleticStaffCell */ = {
+			isa = PBXGroup;
+			children = (
+				475F268A1C9FD9480039F72D /* AthleticStaffCell.h */,
+				475F268B1C9FD9480039F72D /* AthleticStaffCell.m */,
+			);
+			path = AthleticStaffCell;
+			sourceTree = "<group>";
+		};
+		475F268D1C9FDA5C0039F72D /* AthleticStaffViewController */ = {
+			isa = PBXGroup;
+			children = (
+				475F268E1C9FDA7F0039F72D /* AthleticStaffViewController.h */,
+				475F268F1C9FDA800039F72D /* AthleticStaffViewController.m */,
+			);
+			path = AthleticStaffViewController;
+			sourceTree = "<group>";
+		};
+		475F27051C9FE7300039F72D /* NSManagedObject SubClasses */ = {
+			isa = PBXGroup;
+			children = (
+				475F27061C9FE7300039F72D /* Staff */,
+			);
+			path = "NSManagedObject SubClasses";
+			sourceTree = "<group>";
+		};
+		475F27061C9FE7300039F72D /* Staff */ = {
+			isa = PBXGroup;
+			children = (
+				475F270A1C9FE8470039F72D /* Staff+CoreDataProperties.h */,
+				475F270B1C9FE8470039F72D /* Staff+CoreDataProperties.m */,
+				475F270C1C9FE8470039F72D /* Staff.h */,
+				475F270D1C9FE8470039F72D /* Staff.m */,
+			);
+			path = Staff;
 			sourceTree = "<group>";
 		};
 		47B7D1F91C9BE69000487E39 /* Menu1 */ = {
@@ -424,11 +473,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				475F26881C9FD6640039F72D /* background.jpg in Resources */,
 				4707CAF31C9AE132001A670C /* splash.png in Resources */,
 				4707CAC31C9ADDBE001A670C /* LaunchScreen.storyboard in Resources */,
 				4707CAC01C9ADDBE001A670C /* Assets.xcassets in Resources */,
-				47B7D1FD1C9BE83200487E39 /* IMG_4349.PNG in Resources */,
-				4707CB091C9AED30001A670C /* background.jpg in Resources */,
 				4707CB0B1C9AEE8E001A670C /* back.png in Resources */,
 				47B7D2071C9C292400487E39 /* logo.png in Resources */,
 				47B7D1F81C9BDA0C00487E39 /* home.PNG in Resources */,
@@ -463,9 +511,13 @@
 				4707CB061C9AE89D001A670C /* AboutViewController.m in Sources */,
 				47B7D20B1C9C318F00487E39 /* ImagePreviewViewController.m in Sources */,
 				4707CAF41C9AE132001A670C /* SFC_Talon.xcdatamodeld in Sources */,
+				475F270E1C9FE8470039F72D /* Staff+CoreDataProperties.m in Sources */,
+				475F270F1C9FE8470039F72D /* Staff.m in Sources */,
 				47B7D2051C9BEB3400487E39 /* PhilosophyOfSFCViewController.m in Sources */,
 				4707CAB21C9ADDBD001A670C /* main.m in Sources */,
 				4707CAFF1C9AE4C0001A670C /* HomeViewController.m in Sources */,
+				475F268C1C9FD9480039F72D /* AthleticStaffCell.m in Sources */,
+				475F26901C9FDA800039F72D /* AthleticStaffViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

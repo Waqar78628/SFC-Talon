@@ -1,33 +1,31 @@
 //
-//  AboutViewController.m
+//  AthleticStaffViewController.m
 //  SFC Talon
 //
-//  Created by Waqar on 3/17/16.
+//  Created by Waqar on 3/21/16.
 //  Copyright © 2016 Intagleo Systems. All rights reserved.
 //
 
-#import "AboutViewController.h"
-
-#import "PhilosophyOfSFCViewController.h"
 #import "AthleticStaffViewController.h"
-#import "AboutMenuCell.h"
+#import "AthleticStaffCell.h"
 
+@interface AthleticStaffViewController ()
 
-@interface AboutViewController () <UITableViewDelegate>
-
-@property (nonatomic, strong) NSArray *menu ;
+@property (nonatomic, strong) NSArray *staff ;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
-@implementation AboutViewController
+@implementation AthleticStaffViewController
 
 -(void)viewDidLoad
 {
     [super viewDidLoad];
     
     self.tableView.backgroundColor = [UIColor clearColor];
-    self.menu = [[NSArray alloc] initWithObjects:@"Philosophy of SFC Athletics", @"Athletic Staff", @"About the School", @"Eagle Weather", nil];
+    self.staff = [[NSArray alloc] initWithObjects:@"Chad Bickley - Athletic Director", @"Robbie Roberts - Assistant Athletic Director", @"Leslie Easterling - Administrative Assistant Athletics", @"Ben Jamson - Sports Information Coordinator", @"Nick Farrell - Strength and Conditioning Coach", @"Kristal Peterson - Athletic Trainer", nil];
+    
+    NSLog(@"Staff %@",self.staff);
 }
 
 #pragma mark - button actions
@@ -46,23 +44,25 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [self.menu count];
+    return [self.staff count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    AboutMenuCell *cell ;
-    static NSString * cellIdentifier = @"AboutMenuCell";
+    AthleticStaffCell *cell ;
+    static NSString * cellIdentifier = @"AthleticStaffCell";
     
     cell   = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     
     if (cell == nil)
     {
-        cell   = [[AboutMenuCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+        cell   = [[AthleticStaffCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
     
-    cell.menuImageView.image = [UIImage imageNamed:@"back.png"];
-    cell.menuLabel.text      = [self.menu objectAtIndex:indexPath.row];
+    cell.profileImageView.image        = [UIImage imageNamed:@"back.png"];
+    cell.nameAndDesignationLabel.text  = [self.staff objectAtIndex:indexPath.row];
+    
+    NSLog(@"cell : %@",cell.nameAndDesignationLabel.text);
     
     cell.backgroundColor = [UIColor clearColor];
     cell.selectionStyle  = UITableViewCellSelectionStyleNone;
@@ -83,31 +83,16 @@
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 50.0;
+    return 70.0;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    //UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     
     if (indexPath.row == 0)
     {
-        PhilosophyOfSFCViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"PhilosophyOfSFCViewController"];
-        [self.navigationController pushViewController:vc animated:YES];
-    }
-    else if (indexPath.row == 1)
-    {
-        AthleticStaffViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"AthleticStaffViewController"];
-        [self.navigationController pushViewController:vc animated:YES];
-    }
-    else if (indexPath.row == 2)
-    {
-    }
-    else if(indexPath.row == 3)
-    {
     }
 }
-
-
 
 @end
