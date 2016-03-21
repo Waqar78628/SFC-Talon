@@ -25,6 +25,7 @@
 		475F26901C9FDA800039F72D /* AthleticStaffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 475F268F1C9FDA800039F72D /* AthleticStaffViewController.m */; };
 		475F270E1C9FE8470039F72D /* Staff+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 475F270B1C9FE8470039F72D /* Staff+CoreDataProperties.m */; };
 		475F270F1C9FE8470039F72D /* Staff.m in Sources */ = {isa = PBXBuildFile; fileRef = 475F270D1C9FE8470039F72D /* Staff.m */; };
+		475F27131CA0036C0039F72D /* AthleticStaffDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 475F27121CA0036C0039F72D /* AthleticStaffDetailViewController.m */; };
 		47B7D1F81C9BDA0C00487E39 /* home.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 47B7D1F71C9BDA0C00487E39 /* home.PNG */; };
 		47B7D1FB1C9BE6C500487E39 /* champion.png in Resources */ = {isa = PBXBuildFile; fileRef = 47B7D1FA1C9BE6C500487E39 /* champion.png */; };
 		47B7D2051C9BEB3400487E39 /* PhilosophyOfSFCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B7D2041C9BEB3400487E39 /* PhilosophyOfSFCViewController.m */; };
@@ -82,6 +83,8 @@
 		475F270B1C9FE8470039F72D /* Staff+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Staff+CoreDataProperties.m"; sourceTree = "<group>"; };
 		475F270C1C9FE8470039F72D /* Staff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Staff.h; sourceTree = "<group>"; };
 		475F270D1C9FE8470039F72D /* Staff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Staff.m; sourceTree = "<group>"; };
+		475F27111CA0036C0039F72D /* AthleticStaffDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AthleticStaffDetailViewController.h; sourceTree = "<group>"; };
+		475F27121CA0036C0039F72D /* AthleticStaffDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AthleticStaffDetailViewController.m; sourceTree = "<group>"; };
 		47B7D1F71C9BDA0C00487E39 /* home.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.PNG; sourceTree = "<group>"; };
 		47B7D1FA1C9BE6C500487E39 /* champion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = champion.png; sourceTree = "<group>"; };
 		47B7D2031C9BEB3400487E39 /* PhilosophyOfSFCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhilosophyOfSFCViewController.h; sourceTree = "<group>"; };
@@ -319,6 +322,7 @@
 			children = (
 				475F268E1C9FDA7F0039F72D /* AthleticStaffViewController.h */,
 				475F268F1C9FDA800039F72D /* AthleticStaffViewController.m */,
+				475F27101CA0035C0039F72D /* AthleticStaffDetailViewController */,
 			);
 			path = AthleticStaffViewController;
 			sourceTree = "<group>";
@@ -340,6 +344,15 @@
 				475F270D1C9FE8470039F72D /* Staff.m */,
 			);
 			path = Staff;
+			sourceTree = "<group>";
+		};
+		475F27101CA0035C0039F72D /* AthleticStaffDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				475F27111CA0036C0039F72D /* AthleticStaffDetailViewController.h */,
+				475F27121CA0036C0039F72D /* AthleticStaffDetailViewController.m */,
+			);
+			path = AthleticStaffDetailViewController;
 			sourceTree = "<group>";
 		};
 		47B7D1F91C9BE69000487E39 /* Menu1 */ = {
@@ -518,6 +531,7 @@
 				4707CAFF1C9AE4C0001A670C /* HomeViewController.m in Sources */,
 				475F268C1C9FD9480039F72D /* AthleticStaffCell.m in Sources */,
 				475F26901C9FDA800039F72D /* AthleticStaffViewController.m in Sources */,
+				475F27131CA0036C0039F72D /* AthleticStaffDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

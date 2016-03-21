@@ -24,8 +24,6 @@
     
     self.tableView.backgroundColor = [UIColor clearColor];
     self.staff = [[NSArray alloc] initWithObjects:@"Chad Bickley - Athletic Director", @"Robbie Roberts - Assistant Athletic Director", @"Leslie Easterling - Administrative Assistant Athletics", @"Ben Jamson - Sports Information Coordinator", @"Nick Farrell - Strength and Conditioning Coach", @"Kristal Peterson - Athletic Trainer", nil];
-    
-    NSLog(@"Staff %@",self.staff);
 }
 
 #pragma mark - button actions
@@ -60,9 +58,8 @@
     }
     
     cell.profileImageView.image        = [UIImage imageNamed:@"back.png"];
+    cell.nameAndDesignationLabel.numberOfLines   = 2;
     cell.nameAndDesignationLabel.text  = [self.staff objectAtIndex:indexPath.row];
-    
-    NSLog(@"cell : %@",cell.nameAndDesignationLabel.text);
     
     cell.backgroundColor = [UIColor clearColor];
     cell.selectionStyle  = UITableViewCellSelectionStyleNone;
